@@ -34,7 +34,6 @@ exports.create = (req, res) => {
 exports.findAll = (req, res) => {
   const title = req.query.title;
   var condition = title ? { title: { $regex: new RegExp(title), $options: "i" } } : {};
-  console.log("RUNNING GET")
   Tutorial.find(condition)
     .then(data => {
       res.send(data);
