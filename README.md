@@ -1,4 +1,7 @@
 # Nodejs and MongoDB CRUD Template
+To run this template out of the box on Brev click here:
+
+[![](https://uohmivykqgnnbiouffke.supabase.co/storage/v1/object/public/landingpage/pill-border-lg.png)](https://console.brev.dev/environment/new?repo=https://github.com/brevdev/CRUD-nodejs-mongodb)
 
 Much of the code in this was borrowed from [Tien Nguyen](https://github.com/tienbku). Please check him out!
 
@@ -12,9 +15,7 @@ This repo runs a CRUD app which allows you to add and delete tutorials. A tutori
 }
 ```
 
-To run this template out of the box on Brev click here:
 
-[![](https://uohmivykqgnnbiouffke.supabase.co/storage/v1/object/public/landingpage/pill-border-lg.png)](https://console.brev.dev/environment/new?repo=https://github.com/brevdev/CRUD-nodejs-mongodb)
 
 ## Running everything in docker-compose:
 
